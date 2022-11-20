@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #bdc3c7;
+     
+    font-family: sans-serif;
+  }
+  
+  #calculadora {
+    width: 340px;
+    height: 570px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 20px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  #title {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  #resultado {
+    height: 120px;
+  }
+  
+  .vsaida {
+    text-align: right;
+    height: 60px;
+    width: 275px;
+    margin: 10px 20px;
+    font-size: 30px;
+    outline: none;
+    border: 1px solid #2c3e50;
+    border-radius: 5px;
+  }
+  
+  .teclado {
+    height: 400px;
+
+  }
+  
+  .botonAux,
+  .numero,
+  .limpiar,
+  .division,
+  .suma,
+  .multiplicacion,
+  .sustraccion,
+  .igual {
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    border: 0.1px solid #c8cbcc;
+    box-shadow: 0px 3px rgba(0,0,0,0.5);
+  }
+  
+  .division {
+    font-size: 20px;
+    background-color: #70d6ff;
+  }
+  
+  .suma {
+    font-size: 20px;
+    background-color: #ffd670;
+  }
+  
+  .multiplicacion {
+    font-size: 20px;
+    background-color: #ff70a6;
+  }
+  
+  .sustraccion {
+    font-size: 20px;
+    background-color: #ff9770;
+  }
+  
+  .igual {
+    font-size: 20px;
+    background-color: #e9ff70;
+  }
+  
+  .numero {
+    background-color: #eaedef;
+  }
+  
+  .numero,
+  .botonAux,
+  .limpiar,
+  .division,
+  .suma,
+  .multiplicacion,
+  .igual,
+  .sustraccion {
+    cursor: pointer;
+  }
+  
+  .botonAux:active,
+  .numero:active,
+  .limpiar:active,
+  .division:active,
+  .suma:active,
+  .multiplicacion:active,
+  .subtracion:active,
+  .igual:active {
+    font-size: 13px;
+    box-shadow: 0px 0px ;
+  }
+  
+  .botonAux:focus,
+  .numero:focus,
+  .vazio:focus,
+  .limpar:focus,
+  .division:focus,
+  .suma:focus,
+  .multiplicacion:focus,
+  .subtracion:focus,
+  .igual:focus {
+    outline: 0;
+  }
